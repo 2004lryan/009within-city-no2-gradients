@@ -67,6 +67,7 @@ workbook, figure and log helpers that every script loads.
 | | `65_revision_robustness.py` | Further robustness checks, including alternative fleet measures |
 | | `66_exposure_epoch_check.py` | Exposure from the 2015 and interpolated GHSL epochs |
 | | `67_gradient_differential_check.py` | NO₂ minus comparison-species gradient paths |
+| | `68_vehicle_stock_match_check.py` | Station-years without a city vehicle stock, and columns 1 and 3 of Table 2 with the unmatched cities restored |
 
 Most scripts write their results to a workbook in `outputs/` and a log in `logs/`, both created on first run; the
 acquisition scripts also write the cleaned tables under `data/`, and `50_add_o3_annual_mean.py` adds its columns to the
@@ -88,9 +89,9 @@ but the download caches of scripts 42, 45 and 66 (under `data/raw/`, not tracked
 directory.
 
 **From the cleaned tables.** With the eight tables of `data/DATA.md` in place, run scripts 47, 48, 51, 52, 54, 55 and
-59 to 67 in numerical order, except that 65 must run before 64. Later scripts read the workbooks of earlier ones: 59
-and 60 read that of 51, 64 reads those of 51, 61, 62, 63 and 65, and 66 reads that of 63 and downloads the GHSL 2015
-tiles on first use. Script 62 reads the city meteorology workbook of script 29, one of the eight tables.
+59 to 68 in numerical order, except that 65 must run before 64. Later scripts read the workbooks of earlier ones: 59
+and 60 read that of 51, 64 reads those of 51, 61, 62, 63 and 65, 66 reads that of 63 and downloads the GHSL 2015
+tiles on first use, and 68 reads that of 48. Script 62 reads the city meteorology workbook of script 29, one of the eight tables.
 
 **Scripts that need the hourly files.** Scripts 56, 57 and 58, and pre-test P3 of script 47, read the hourly station
 files, which are not redistributed; without them 47 skips P3 and the other three stop. Rebuild the files with
