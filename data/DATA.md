@@ -31,12 +31,12 @@ the SHA-256 of every file it finds. The 16-character prefixes are those printed 
 | Open-Meteo Geocoding API, https://geocoding-api.open-meteo.com (location database from GeoNames) | city coordinates for the meteorology retrieval (`code/29_fetch_provincial_meteorology.py`) | API data under CC BY 4.0; GeoNames under CC BY |
 | National Bureau of Statistics, https://data.stats.gov.cn | city covariates (`code/49_fetch_city_covariates.py`); provincial covariates (earlier-stage preprocessing, not part of this release) | public release, bureau terms of service |
 | Ministry of Public Security annual bulletins, https://www.mps.gov.cn | national new energy vehicle totals | public release |
-| Third-party compiled package on the ministry's registration basis, downloaded on 2 September 2026 from a public online source under the folder name `【2017-2023】新能源汽车保有量数据(各省市)`; no stable address is recorded | provincial and city vehicle stock (`code/32`, `code/37`, `code/40`) | public data package; not redistributed here, the stock tables built from it are available on request |
+| Third-party compiled package on the ministry's registration basis, downloaded on 2 September 2026 from a public source under the folder name `【2017-2023】新能源汽车保有量数据(各省市)`; no stable address is recorded | provincial and city vehicle stock (`code/32`, `code/37`, `code/40`) | public data package; not redistributed here, the stock tables built from it are available on request |
 
 ## Intermediate files the scripts write but this repository does not ship
 
 - `data/站点小时空气质量-<year>.parquet`: hourly station records reformatted from the archive by `code/42_fetch_station_air_quality.py`.
-  They are a reformatted copy of the publisher's archive, not a new dataset, and are not redistributed.
+  They are a reformatted subset of the public hourly archive, not a new dataset, and are not redistributed.
 - `data/站点交通暴露.csv`: road-network exposure pilot from `code/44_station_traffic_exposure.py` (12 stations).
 - `data/城市坐标-地级及以上.csv`: geocoded city coordinates written by `code/29_fetch_provincial_meteorology.py`.
 
