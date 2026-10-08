@@ -5,7 +5,7 @@
 | File (place it at) | `data/城市面板-2017_2023.csv` |
 | Built by | code/37_build_city_panel.py (2023 values from code/40_transcribe_2023_city_nev.py) |
 | Source | Same compiled data package as the provincial stock (Ministry of Public Security registration basis); city air quality and meteorology columns come from earlier steps of the pipeline |
-| Licence / availability | Public data package. Not redistributed in this repository; available from the corresponding author on reasonable request. |
+| Licence / availability | Third-party compilation (`data/DATA.md` gives its source). Not redistributed in this repository; available from the corresponding author on reasonable request, subject to the terms of the compilation. |
 | Rows x columns | 2333 x 30 |
 | SHA-256 | `10876f2b75a9d40492fe04ad1ea44d70e04408e2dfd013e7767771c08fb937d7` |
 

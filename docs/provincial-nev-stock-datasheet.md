@@ -5,7 +5,7 @@
 | File (place it at) | `data/省级新能源汽车保有量-公安部口径-2017_2023.csv` |
 | Built by | code/32_integrate_nev_stock.py |
 | Source | Year-end registered new energy vehicles on the Ministry of Public Security registration basis, from a third-party compiled data package; national totals are published in the ministry's annual bulletins (https://www.mps.gov.cn) |
-| Licence / availability | Public data package. Not redistributed in this repository; available from the corresponding author on reasonable request. |
+| Licence / availability | Third-party compilation (`data/DATA.md` gives its source). Not redistributed in this repository; available from the corresponding author on reasonable request, subject to the terms of the compilation. |
 | Rows x columns | 217 x 5 |
 | SHA-256 | `36f46632fc39ec649be3536cc1b4194f28cff87815912be6a6a818c64d4fa4d9` |
 

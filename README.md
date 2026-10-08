@@ -117,18 +117,22 @@ preprocessing that is not included here, and 32, 37 and 40 read the vehicle-stoc
 `data/raw/公安部口径-新能源汽车保有量-2017_2023/` (the docstring of script 32 lists the package files the scripts
 use). The package is a third-party compilation of year-end new energy vehicle registrations on the Ministry of Public
 Security basis, downloaded on 2 September 2026 from a public source under the folder name
-`【2017-2023】新能源汽车保有量数据(各省市)`; no stable address is recorded for it, and script 32 checks it against the
-national totals the ministry publishes. The stock tables built from it are available on request with the other
-cleaned tables, and `data/DATA.md` lists all of these inputs. Scripts 29, 42 to 45 and 66 call the system `curl`, and
-49 drives a locally installed Chrome, Chromium or Edge through Playwright.
+`【2017-2023】新能源汽车保有量数据(各省市)`; no stable address is recorded for that download, and script 32 checks the
+package against the national totals the ministry publishes. It matches the compilation sold by Xingyuan Data
+(https://www.stardata360.com, archives/2190 and archives/4529) in the yearly city totals for 2017 to 2022 and the 2023
+values for Shanghai and Zhejiang listed there; the vendor names no source. The stock tables built from the package are
+available on request with the other cleaned tables, subject to the terms of the compilation, and `data/DATA.md` lists
+all of these inputs. Scripts 29, 42 to 45 and 66 call the system `curl`, and 49 drives a locally installed Chrome,
+Chromium or Edge through Playwright.
 
 ## Data availability
 
 This repository contains no data. The cleaned tables are built from public sources (national monitoring releases,
-GHSL R2023A under CC BY 4.0, NASA POWER, the National Bureau of Statistics, and vehicle registration counts on the
-Ministry of Public Security basis) and are available from the corresponding author on reasonable request. The hourly
-files are a reformatted subset of the public hourly archive and are not redistributed. `data/DATA.md` gives the source,
-licence and SHA-256 of every table.
+GHSL R2023A under CC BY 4.0, NASA POWER, the National Bureau of Statistics, and a third-party compilation of vehicle
+registration counts on the Ministry of Public Security basis) and are available from the corresponding author on
+reasonable request; the two vehicle stock tables are shared subject to the terms of the compilation they derive from.
+The hourly files are a reformatted subset of the public hourly archive and are not redistributed. `data/DATA.md` gives
+the source, licence and SHA-256 of every table.
 
 ## Citation
 
