@@ -119,11 +119,11 @@ use). The package is a third-party compilation of year-end new energy vehicle re
 Security basis, downloaded on 2 September 2026 from a public source under the folder name
 `【2017-2023】新能源汽车保有量数据(各省市)`; no stable address is recorded for that download, and script 32 checks the
 package against the national totals the ministry publishes. It matches the compilation sold by Xingyuan Data
-(https://www.stardata360.com, archives/2190 and archives/4529) in the yearly city totals for 2017 to 2022 and the 2023
-values for Shanghai and Zhejiang listed there; the vendor names no source. The stock tables built from the package are
-available on request with the other cleaned tables, subject to the terms of the compilation, and `data/DATA.md` lists
-all of these inputs. Scripts 29, 42 to 45 and 66 call the system `curl`, and 49 drives a locally installed Chrome,
-Chromium or Edge through Playwright.
+(https://www.stardata360.com, archives/2190 and archives/4529) in the yearly table totals for 2017 to 2022, rows not
+allocated to a city included, and in the 2023 values for Shanghai and Zhejiang listed there; the vendor names no
+source. The stock tables built from the package are available on request with the other cleaned tables, subject to
+the terms of the compilation, and `data/DATA.md` lists all of these inputs. Scripts 29, 42 to 45 and 66 call the
+system `curl`, and 49 drives a locally installed Chrome, Chromium or Edge through Playwright.
 
 ## Data availability
 
