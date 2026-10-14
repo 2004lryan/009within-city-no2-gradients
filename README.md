@@ -3,7 +3,7 @@
 Analysis code for the manuscript:
 
 > **Within-city nitrogen dioxide exposure gradients in China narrowed ahead of electric vehicle fleet growth**
-> Panlin Li, Hua Huang\*
+> Panlin Li, Hua Huang, Yanping Song\*
 > Xinjiang Agricultural University · *manuscript in preparation*
 
 Repository: https://github.com/2004lryan/009within-city-no2-gradients
@@ -144,4 +144,4 @@ Code: MIT (see `LICENSE`). Each data source is used under its own terms (see `da
 
 ## Contact
 
-Hua Huang, huanghua@xjau.edu.cn, Xinjiang Agricultural University.
+Yanping Song, syp@xjau.edu.cn, Xinjiang Agricultural University.

@@ -9,7 +9,10 @@ authors:
   - family-names: "Huang"
     given-names: "Hua"
     affiliation: "College of Mathematics and Physics; Numerical Simulation and Data Analysis Research Center, Xinjiang Agricultural University"
-    orcid: "https://orcid.org/0000-0003-0615-9402"
-    email: "huanghua@xjau.edu.cn"
+  - family-names: "Song"
+    given-names: "Yanping"
+    affiliation: "College of Mathematics and Physics; Numerical Simulation and Data Analysis Research Center, Xinjiang Agricultural University"
+    orcid: "https://orcid.org/0009-0009-0104-5853"
+    email: "syp@xjau.edu.cn"
 repository-code: "https://github.com/2004lryan/009within-city-no2-gradients"
 license: MIT
